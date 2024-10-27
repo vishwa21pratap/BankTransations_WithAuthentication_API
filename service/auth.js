@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken');
-const secret = "Vishwa$saloni$babu";
+const secret = " ";//enter your secret key here
 
 function setBusiness(business) {
     return jwt.sign({
